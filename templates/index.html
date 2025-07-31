@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anemia Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Anemia</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/prediction">Predict</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="/prediction" class="btn-check">Check</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="overlay">
+            <h1>Anemia Predictor: Your Health Guardian</h1>
+            <p>Empowering you with early detection for better management and healthier living</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>Anemia: low red blood cells or hemoglobin, causing oxygen shortage. Symptoms: fatigue, weakness, shortness of breath, pale skin. Causes: nutritional deficiencies, diseases, blood loss. Treatments vary.</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <h3>Hemoglobin</h3>
+                    <p>Hemoglobin, a protein in red blood cells, transports oxygen and carbon dioxide. Healthy ranges: Men: 13.2–16.6 g/dL. Women: 11.6–15 g/dL.</p>
+                </div>
+                <div class="card">
+                    <h3>MCH</h3>
+                    <p>An MCH value refers to the average quantity of hemoglobin present in a single red blood cell. The normal range for MCH is between 27.5 and 33.2 picograms (pg).</p>
+                </div>
+                <div class="card">
+                    <h3>MCHC</h3>
+                    <p>The mean corpuscular hemoglobin concentration is average concentration of hemoglobin in red blood cells. The normal range: 33.4–35.5g/dL.</p>
+                </div>
+                <div class="card">
+                    <h3>MCV</h3>
+                    <p>MCV stands for mean corpuscular volume. An MCV blood test measures the average size of red blood cells. The normal range for MCV is between 80 to 100 femtoliter.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="contact-section">
+        <h3>Contact Us</h3>
+        <p>The Smart Bridge<br>UttarPredesh, Lucknow, India</p>
+        <p><strong>Phone:</strong> +91 xxxx 5548 55</p>
+        <p><strong>Email:</strong> info@example.com</p>
+    </footer>
+</body>
+</html>
